@@ -1,6 +1,6 @@
 {
   "name": "@madhouselabs/module-alias",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "a diy approach to module aliasing in nodejs",
   "main": "app/cli.js",
   "scripts": {
