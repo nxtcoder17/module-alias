@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "target": "es6"",
+    "module": "es6",
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "noImplicitAny": false,
+    "paths": {
+      "@example": ["./src/example.js"],
+    }
+  },
+  "typeAcquisition": {
+    "enable": true
+  },
+  "typingOptions": {
+    "enableAutoDiscovery": true
+  },
+  "allowJS": true,
+  "checkJS": true,
+  "include": [
+    "app",
+    "lib",
+    "src"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

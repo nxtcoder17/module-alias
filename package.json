@@ -1,0 +1,40 @@
+{
+  "name": "@madhouselabs/module-alias",
+  "version": "1.2.0",
+  "description": "a diy approach to module aliasing in nodejs",
+  "main": "app/cli.js",
+  "scripts": {
+    "start": "node -r esm ./src/index.js",
+    "alias:link": "node -r esm ./app/cli.js link",
+    "alias:unlink": "node -r esm ./app/cli.js unlink"
+  },
+  "keywords": ["madhouselabs", "module alias"],
+  "author": "nxtcoder17",
+  "license": "ISC",
+  "dependencies": {
+    "esm": "^3.2.25"
+  },
+  "bin": {
+    "module-alias": "./app/cli.sh"
+  },
+  "publishConfig": {
+    "access": "public",
+    "@madhouselabs:registry": "https://registry.npmjs.org"
+  },
+  "public": true,
+  "preferGlobal": true,
+  "devDependencies": {
+    "@madhouselabs/eslint-config-base": "^1.0.1",
+    "eslint": "^8.2.0",
+    "eslint-config-airbnb-base": "15.0.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-import-resolver-node": "^0.3.6",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.4.1"
+  },
+  "alias": {
+    "@sample": "./example/sample.js",
+    "@yz": "./sdfasd"
+  }
+}

@@ -1,0 +1,2 @@
+extends:
+  - '@madhouselabs/eslint-config-base'
